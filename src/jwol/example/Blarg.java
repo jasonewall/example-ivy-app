@@ -27,6 +27,7 @@ public class Blarg {
         }));
 
         System.out.println("CTRL-C to stop server");
+        System.out.println("Checkout http://localhost:8080/");
 
         try {
             server.join();
