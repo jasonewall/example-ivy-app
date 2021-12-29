@@ -25,4 +25,4 @@ Checkout http://localhost:8080/
 
 ### What just happened?
 
-The `ivy-cli` just downloaded all project dependencies found in `ivy.xml` to your ivy cache, automatically compiled your project, and then started the main class denoted by `jwol.example.Blarg` (see [Blarg.java](blob/main/src/jwol/example/Blarg.java)). The argument passed in to `ivy run` can be any fully qualified classname that defines a Java entry point method.
+The `ivy-cli` downloaded all project dependencies found in `ivy.xml` to your ivy cache, automatically compiled your project (ensuring all dependencies are in the compiler classpath), and then started the main class denoted by `jwol.example.Blarg` (see [Blarg.java](blob/main/src/jwol/example/Blarg.java)). The argument passed in to `ivy run` can be any fully qualified class name that defines a Java entry point method.
